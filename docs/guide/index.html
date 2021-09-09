@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
+      title="docsify-darklight-theme"
+      type="text/css"
+    />
+    <style>
+      .center {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        border: 0px;
+        padding: 10px;
+      }
+
+      .logo {
+        width: 50%;
+        height: 50%;
+      }
+
+      #cover-logo {
+        animation: 1s ease-in 0s 1 bounce;
+        width: 20%;
+        height: 20%;
+      }
+
+      @keyframes bounce {
+        0%,
+        20%,
+        50%,
+        80%,
+        100% {
+          transform: translateY(0);
+        }
+        40% {
+          transform: translateY(-30px);
+        }
+        60% {
+          transform: translateY(-15px);
+        }
+      }
+
+      img[src*="?thumbnail"] {
+        width: 60%;
+        height: 30%;
+        display: block;
+        margin: auto;
+        border: 2px solid #cccccc;
+        border-radius: 5px;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div data-app id="app">Please wait...</div>
+    <script>
+      window.$docsify = {
+        el: "#app",
+        name: "skeleton-docsify",
+        repo: "https://github.com/mercadolibre/skeleton-docsify",
+        coverpage: true,
+        onlyCover: true,
+        loadSidebar: true,
+        loadNavbar: true,
+        subMaxLevel: 3,
+        notFoundPage: true,
+        fallbackLanguages: ["en", "es"],
+        darklightTheme: {
+          siteFont: "Fira Code",
+          defaultTheme: "dark",
+          codeFontFamily: "monospace",
+          bodyFontSize: "14px",
+          dark: {
+            accent: "#239aee",
+            toogleBackground: "#ffffff",
+            background: "#2b2b2b",
+            textColor: "#b4b4b4",
+            codeTextColor: "#6acb64",
+            codeBackgroundColor: "#383737",
+            borderColor: "#303335",
+            blockQuoteColour: "#858585",
+            highlightColor: "#fdba00",
+            sidebarSublink: "#b4b4b4",
+            codeTypeColor: "#ffffff",
+            coverBackground: "#1a1a1a",
+            toogleImage:
+              "url(https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/sun.svg)",
+          },
+          light: {
+            accent: "#239aee",
+            toogleBackground: "#091a28",
+            background: "#ffffff",
+            textColor: "#34495e",
+            codeTextColor: "#0a8302",
+            codeBackgroundColor: "#f8f8f8",
+            borderColor: "rgba(0, 0, 0, 0.07)",
+            blockQuoteColor: "#858585",
+            highlightColor: "#fdba00",
+            sidebarSublink: "#7d7c7c",
+            codeTypeColor: "#091a28",
+            coverBackground: "#f0f0f0",
+            toogleImage:
+              "url(https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/moon.svg)",
+          },
+        },
+        // #ff0042
+      };
+    </script>
+    <!-- Docsify v4 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script
+      src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"
+      type="text/javascript"
+    ></script>
+  </body>
+</html>
