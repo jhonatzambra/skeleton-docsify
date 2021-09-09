@@ -18,4 +18,4 @@
 - Setup
   
   - [Getting started](en/main/getting-started.md)
-  - [Advanced steps](en/main/specific-steps.md)
+  - [Advanced steps](en/main/advanced-steps.md)
