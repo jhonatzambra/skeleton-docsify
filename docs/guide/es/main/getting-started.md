@@ -32,17 +32,22 @@ sdk install grails 2.5.3
 
 ### Otras herramientas ###
 
+- **Fury:** Esta es la plataforma sobre la cual se desarrollan, deployan y gestionan en producción todas las aplicaciones de MercadoLibre. Si aún no lo has instalado, puedes seguir los pasos de la documentación oficial:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Prerrequisitos](https://furydocs.io/client/1.6.3-doc2/guide/#/furycli/requirements)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Instalación](https://furydocs.io/client/1.6.3-doc2/guide/#/furycli/installation)
+
 Con el gestor de paquetes Homebrew es posible instalar otras tres tecnologías que serán necesarias para tus desarrollos en Payments:
 
-- Node
+- **Node**
 ~~~
 brew install node
 ~~~
-- Redis
+- **Redis**
 ~~~
 brew install redis
 ~~~
-- Memcached
+- **Memcached**
 ~~~
 brew install memcached
 ~~~
@@ -54,8 +59,8 @@ También necesitarás un IDE y una aplicación para probar APIs:
 
 **Puedes conseguir estas y otras aplicaciones en la APP 'Intelligent HUB' instalada en tu Mac por el equipo de MELI**
 
-<img src='img/intelligent-hub.png' width="274" height="180"></img>
-<img src='img/hub-devs-apps.png'></img>
+![intelligent-hub](../../img/intelligent-hub.png)
+![hub-devs-apps](../../img/hub-devs-apps.png)
 
-**Finalmente, con todas tus herramientas instaladas, estás preparado para dar el siguiente paso.**
+**Finalmente, con todas tus herramientas instaladas, estás preparado para dar el [siguiente paso](es/main/advanced-steps.md).**
 

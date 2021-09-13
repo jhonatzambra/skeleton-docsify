@@ -17,5 +17,5 @@
 
 - Configuración
   
-  - [Comó empezar](es/main/getting-started.md)
-  - [Pasos avanzados](es/main/specific-steps.md)
+  - [Cómo empezar](es/main/getting-started.md)
+  - [Pasos avanzados](es/main/advanced-steps.md)
