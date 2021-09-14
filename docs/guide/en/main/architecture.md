@@ -1,6 +1,6 @@
 # Specification of architecture
 
-> **TODO:**  Create documentation about the main and global definition of the project in terms of 
+> **Description:**  Create documentation about the main and global definition of the project in terms of 
 > architecture/structure related to definition of components, relation with another components. Also 
 > can include information about the patterns and style related to the design.
 

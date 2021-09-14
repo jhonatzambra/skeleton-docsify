@@ -5,7 +5,7 @@
 # skeleton-docsify
 ## by Payments-Core
 
-[GitHub](https://github.com/mercadolibre/scaffolding-docsify)
+[GitHub](https://github.com/jhonatzambra/skeleton-docsify)
 [Documentation](/en/main/overview.md)
 
 ![color](#f0f0f0)
